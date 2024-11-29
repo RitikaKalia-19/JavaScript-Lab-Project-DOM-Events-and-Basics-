@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>## Exercise #4: Formatting text</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form name="form">
+    <label for="font_family">Font Family:</label>
+    <select name="font_family" id="font_family">
+      <option value="Arial">Arial</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Helvetica">Helvetica</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Courier New">Courier New</option>
+    </select>
+
+    <label for="font-size">Font Size:</label>
+    <select name="font_size" id="font_size">
+      <option value="12px">12px</option>
+      <option value="14px">14px</option>
+      <option value="16px">16px</option>
+      <option value="18px">18px</option>
+      <option value="20px">20px</option>
+    </select>
+
+    <label>
+      Italic
+      <input type="checkbox" name="font_italic" id="font_italic">
+    </label>
+    <label>
+      Bold
+      <input type="checkbox" name="font_bold" id="font_bold">
+    </label>
+    <label>
+      Underline
+      <input type="checkbox" name="font_underline" id="font_underline">
+    </label> 
+  </form>
+
+  <div id="text">
+    The quick brown fox jumps over the lazy dog.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

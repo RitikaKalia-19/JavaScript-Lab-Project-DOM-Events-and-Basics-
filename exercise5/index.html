@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>## Exercise #5:Input Check</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form name="pw" id="pwForm">
+    <table>
+      <tbody>
+        <tr>
+          <td>Password (min 6 characters):</td>
+          <td>
+            <input type="password" name="password" id="password" size="10" placeholder="password">
+          </td>
+          <td>
+            <div id="pw1_check" class="err"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>Repeat password:</td>
+          <td>
+            <input type="password" name="password2" id="password2" size="10" placeholder="password">
+          </td>
+          <td>
+            <div id="pw2_check" class="err"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <input type="submit" value="Submit" id="submitBtn">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

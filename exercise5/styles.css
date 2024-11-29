@@ -1,0 +1,11 @@
+body{
+  font-family: Arial, sans-serif;
+}
+.err {
+  color: red; /* Red color for error messages */
+  font-size: 0.9em;
+}
+#submitBtn {
+  display: none; /* Hide the submit button by default */
+}
+

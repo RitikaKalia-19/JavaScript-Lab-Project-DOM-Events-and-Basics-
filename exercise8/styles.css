@@ -1,0 +1,30 @@
+body {
+  margin: 8px;
+}
+
+#colors {
+  width: 530px;  
+  height: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+#selected {
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;  
+  height: auto;
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#colors div {
+  width: 24px; 
+  height: 24px; 
+  margin: 1px;  /* Spacing between tiles */
+  border: 1px solid black;  /*border to tiles*/
+  box-sizing: border-box;
+}

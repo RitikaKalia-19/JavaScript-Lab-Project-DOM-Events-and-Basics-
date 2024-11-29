@@ -1,0 +1,28 @@
+body {
+  display: block;
+  margin: 8px;
+  font-family: Arial, sans-serif; 
+}
+
+#map {
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid black; 
+}
+
+#map div {
+  margin: 0; 
+  border: none; 
+  box-shadow: none; 
+}
+
+#map div.character {
+  /* background-image: url(images/image.png);  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#map div.end {
+  background-color: red;
+}
